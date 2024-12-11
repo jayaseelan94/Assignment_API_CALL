@@ -33,7 +33,7 @@ public class EmployeeController {
 	@Autowired
 	private EmployeeService employeeService;
 	
-	// display list of employees
+	// display list of employees jayaseelan
 	  @GetMapping("/") public String viewHomePage(Model model) { return
 	  findPaginated(1, "firstName", "asc", model); }
 	 
