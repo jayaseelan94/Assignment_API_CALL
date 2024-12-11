@@ -64,7 +64,7 @@ public class EmployeeController {
 		return "update_employee";
 	}
 
-	//Party List
+	//Party List Jayaseelan
 	@GetMapping("/party")
 	 String getAllPosts(Model model){
 		try {
