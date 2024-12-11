@@ -63,7 +63,8 @@ public class EmployeeController {
 		model.addAttribute("employee", employee);
 		return "update_employee";
 	}
-	
+
+	//Party List
 	@GetMapping("/party")
 	 String getAllPosts(Model model){
 		try {
